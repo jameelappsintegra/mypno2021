@@ -1,8 +1,9 @@
 import React from 'react'
+import MainTitle from '../MainTitle'
 
 const Landing =()=>{
     return(
-        <p>Landing</p>
+        <MainTitle title={'Post'} />
     )
 }
 

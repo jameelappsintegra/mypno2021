@@ -13,7 +13,7 @@ ReactDOM.render(
   </FirebaseContext.Provider>,
   document.getElementById('root'),
 );
-
+// https://github.com/the-road-to-react-with-firebase/react-firestore-authentication
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
 // Learn more about service workers: http://bit.ly/CRA-PWA

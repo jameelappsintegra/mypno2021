@@ -1,7 +1,8 @@
 import React from 'react'
 
 
-const postData = [{
+const postData = [
+{
     "imgUrl": "https://images.unsplash.com/photo-1471421298428-1513ab720a8e",
     "imgAlt": "Several hands holding beer glasses",
     "figCaption": "Billions upon billions",
@@ -28,13 +29,13 @@ const Post = () => {
                 <ul>
                     {postData.map((item, i) => {
                         return (
-                            <li key={item.i}>
+                            <li key={i}>
                                 <figure>
                                     <img src={item.imgUrl} alt={item.imgAlt} />
                                     <figcaption><h3>{item.figCaption}</h3></figcaption>
                                 </figure>
                                 <p>{item.postDesc}</p>
-                                <a href="#">Visit Website</a>
+                                <a href="#">Read More</a>
                             </li>)
                     })}
 
